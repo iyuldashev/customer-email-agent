@@ -1,0 +1,136 @@
+# Environment and secrets
+.env
+credentials.json
+token*.pickle
+*.log
+email_agent.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Database
+postgres_data/
+*.db
+*.sqlite3
+*.sqlite
+
+# Docker
+.docker/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Editor backup files
+*.swp
+*.swo
+*.bak
+
+# Node modules (in case you add any JS)
+node_modules/
+
+# Streamlit
+.streamlit/
+
+# OpenAI/AI related
+.openai_cache/
+
+# Local development
+local_config.py
+local_settings.py
+
+# Backup files
+*.backup
+*.old
